@@ -1,20 +1,18 @@
 {
-  "name": "tech-trends-web",
+  "name": "tech-trends-dbs",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon --debug server.js"
   },
   "author": "Justin Roche <jproche5@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "install": "^0.8.1",
-    "npm": "^3.10.8"
-  },
-  "description": ""
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.6.4"
+  }
 }
