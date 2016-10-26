@@ -47,6 +47,7 @@ app.post('/raw-postings', (req, res) => {
   });
 });
 
+
 app.delete('/raw-postings', (req, res) => {
   //console.log('receiving delete request');
 
